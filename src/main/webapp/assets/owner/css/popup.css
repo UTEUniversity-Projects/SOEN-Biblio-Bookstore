@@ -1,0 +1,58 @@
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    opacity: 1;
+    transition: opacity 0.5s ease;
+}
+.popup-overlay.fade-out {
+    opacity: 0;
+    pointer-events: none;
+}
+.popup-content {
+    background: white;
+    padding: 20px 60px 60px 60px;
+    border-radius: 10px;
+    width: 512px;
+    height: 334px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    font-family: Poppins, sans-serif;
+    position: relative;
+    border-bottom: 5px solid gray;
+}
+.popup-danger {
+    border-bottom: 5px solid red;
+}
+.popup-success {
+    border-bottom: 5px solid #00CA8D;
+}
+.popup-fail {
+    border-bottom: 5px solid black;
+}
+.popup-message {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333;
+}
+.popup-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.popup-gif {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,9 @@
+export const AUTHOR_FOLDER  = '13m27Oh4JOO7TTI5ZzBGr45p3O7tJfNiD';
+export const BOOK_FOLDER  = '1NfsIvAWBx2Bvq2eQfyP2i5gdQ6jZS8t5';
+export const CUSTOMER_FOLDER = '1e8uAnfN6F6-3-L6uQ_7iN19nfPbr9AXa';
+export const OTHER_FOLDER  = '11Y-pbj11HPkpmHkCDWYF_KkDpeCzfgF6';
+export const OWNER_FOLDER  = '1GnMsctvszRiSnJZFGy1cvSozyLCGMqBT';
+export const PUBLISHER_FOLDER  = '11zqI9C8bzL94VT_5C0goJDwYJrAX_KCT';
+export const STAFF_FOLDER = '1WXT4lxkP4XjUXChUy40Jia1CluENazvT';
+export const TRANSLATOR_FOLDER = '1zYjPR8y__L-ZekM6V7kPw2NLj_AolqC6';
+export const APP_SCRIPT_URL = 'https://script.google.com/macros/s/AKfycbxOr7uNSBdsIE5tg6c-gBzmy5vHH3Uz1nQ54h_Xtlx9fQRGjE5UxZpCRAq2MSo6EcBhXg/exec';

@@ -1,0 +1,223 @@
+/*-------------------------------------------------
+  Track Order Page CSS
+---------------------------------------------------*/
+.cr-track {
+  .cr-track-box {
+    border-radius: $radius;
+  }
+  .cr-track-card {
+    height: 100%;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+    color: $text-777;
+    text-align: center;
+    font-size: 15px;
+    background-color: $off-white;
+    .cr-track-title {
+      margin-bottom: 5px;
+      color: $title-color;
+      text-transform: capitalize;
+      font-size: 16px;
+      font-weight: 500;
+    }
+  }
+  .cr-steps {
+    margin-top: 24px;
+    border: 1px solid $border-color;
+    border-radius: $radius;
+  }
+
+  .cr-steps-body {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+  .cr-step {
+    padding: 30px 15px;
+    display: table-cell;
+    position: relative;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    border-right: 1px solid $border-color;
+    color: $text-777;
+    font-weight: 400;
+    text-align: center;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: #fff;
+    &:last-child {
+      border-right: 0;
+    }
+    &:hover {
+      color: $title-color;
+      text-decoration: none;
+      .cr-step-indicator {
+        -webkit-transition: all 0.25s ease-in-out;
+        transition: all 0.25s ease-in-out;
+        border-color: transparent;
+        background-color: $border-color;
+      }
+      .cr-step-icon {
+        color: $text-777;
+      }
+    }
+  }
+  .cr-step.cr-step-completed {
+    background-color: $off-white;
+  }
+  .cr-step-indicator {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid $border-color;
+    border-radius: 50%;
+    background-color: $fff;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+  }
+  .has-indicator {
+    padding-right: 1.5rem;
+    padding-left: 2.375rem;
+    .cr-step-indicator {
+      top: 50%;
+      margin-top: -0.75rem;
+    }
+  }
+  .cr-step-icon {
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin: 0 auto;
+    margin-bottom: 0.75rem;
+    -webkit-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+    color: $text-999;
+    font-size: 22px;
+  }
+  .cr-step-active {
+    color: $title-color;
+    pointer-events: none;
+    cursor: default;
+    font-weight: 500;
+    &:hover {
+      color: $title-color;
+      pointer-events: none;
+      cursor: default;
+      .cr-step-icon {
+        color: $main-primary-color;
+      }
+    }
+    .cr-step-icon {
+      color: $main-primary-color;
+    }
+  }
+  .cr-step-completed {
+    .cr-step-indicator {
+      border-color: transparent;
+      background-color: $main-primary-color;
+      color: $fff;
+      line-height: 1.25rem;
+      i {
+        line-height: 23px;
+      }
+    }
+    &:hover {
+      .cr-step-indicator {
+        border-color: transparent;
+        background-color: $main-primary-color;
+        color: $fff;
+        line-height: 1.25rem;
+        i {
+          line-height: 23px;
+        }
+      }
+    }
+  }
+}
+/* Responsive */
+@media only screen and (max-width: 767px) {
+  .cr-track-box {
+    .row {
+      > div {
+        &:not(:last-child) {
+          margin-bottom: 24px !important;
+        }
+      }
+    }
+  }
+  .cr-track {
+    .cr-steps-body {
+      display: grid;
+    }
+    .cr-track-card {
+    }
+    .cr-step {
+      border-right: 0;
+      &:not(:last-child) {
+        border-bottom: 1px solid $border-color;
+      }
+    }
+  }
+}
+
+table {
+  table-layout: auto;
+}
+
+.order_item {
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: #26aa99;
+    transform-origin: 50% 50%; 
+    transition: 0.2s all linear;
+  }
+
+  &:hover::after {
+    width: 100%;
+  }
+
+  &.active {
+    color: #6eb79c;
+
+    &::after {
+      content: '';
+      width: 100%;
+      height: 2px;
+      background: #6eb79c;
+      bottom: -2px;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 10px;
+      position: absolute;
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}

@@ -1,0 +1,113 @@
+/* Bộ lọc trạng thái */
+#order-filters .tag {
+  font-size: 16px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#order-filters .tag:hover {
+  color: #26aa99;
+}
+
+/* Đơn hàng */
+.order-item {
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 20px;
+}
+
+.order-item img {
+  border-radius: 4px;
+}
+
+.my-hidden {
+  display: none;
+}
+
+.my-visible {
+  display: block; /* Hoặc inline-block tùy theo layout */
+}
+
+.order-item .book-item {
+  display: flex;
+  align-items: center; /* Căn giữa theo chiều dọc */
+  margin-bottom: 1rem;
+}
+
+.order-item .book-item img {
+  flex-shrink: 0; /* Đảm bảo hình ảnh không co lại */
+  width: 100px;
+  height: 100px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.order-item .book-info {
+  margin-left: 16px;
+  flex-grow: 1; /* Đẩy thông tin chiếm không gian còn lại */
+}
+
+.order-item .book-info h4 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.order-item .book-info p {
+  font-size: 1rem;
+  color: #333;
+}
+
+.bottom-container {
+  border-bottom: 1px solid #666666 !important; /* Dùng !important để đảm bảo nó được áp dụng */
+  padding-bottom: 20px;
+}
+
+.book-container {
+  border-top: 1px solid #30cb83 !important; /* Dùng !important để đảm bảo nó được áp dụng */
+  padding-top: 20px;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: bold;
+
+  &--completed {
+    color: $complete-color;
+  }
+
+  &--canceled,
+  &--out_of_stock {
+    color: $canceled-color;
+  }
+
+  &--pending,
+  &--coming_soon {
+    color: $waiting-confirmation-color;
+  }
+
+  &--packing {
+    color: $packing-color;
+  }
+
+  &--shipping {
+    color: $shipping-color;
+  }
+
+  &--complete_delivery,
+  &--on_sale {
+    color: $complete-color;
+  }
+
+  &--request_refund {
+    color: $request-refund-color;
+  }
+
+  &--refunded,
+  &--stop_selling {
+    color: $refunded-color;
+  }
+}
+

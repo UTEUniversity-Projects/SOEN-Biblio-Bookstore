@@ -1,0 +1,106 @@
+/* Register */
+.cr-register {
+  max-width: 600px;
+  margin: auto;
+  padding: 30px;
+  background-color: $fff;
+  border: 1px solid $border-color;
+  border-radius: $radius;
+
+  form {
+    .form-group {
+      .cr-form-control {
+        font-size: 14px;
+        color: $text-777;
+      }
+    }
+    .terms {
+      margin-bottom: 20px;
+      color: $text-777;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0;
+
+      .custom {
+        margin: 0;
+
+        input {
+          width: 15px;
+          height: 15px;
+          margin-right: 5px;
+          padding: 0;
+          display: none;
+          cursor: pointer;
+
+          &:checked + label:after {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 6px;
+            width: 6px;
+            height: 11px;
+            border: solid $main-primary-color;
+            border-width: 0 2px 2px 0;
+            transform: rotate(45deg);
+          }
+        }
+
+        label {
+          margin: 0;
+          position: relative;
+          cursor: pointer;
+          color: $text-777;
+          font-weight: normal;
+          line-height: 2;
+
+          &:before {
+            content: '';
+            margin-right: 10px;
+            padding: 8px;
+            background-color: transparent;
+            border: 1px solid $border-color;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+              inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+            display: inline-block;
+            position: relative;
+            vertical-align: middle;
+            cursor: pointer;
+            border-radius: $radius;
+          }
+
+          .link {
+            color: $main-primary-color;
+          }
+        }
+      }
+    }
+  }
+}
+
+.cr-register-buttons {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+  button {
+    margin-right: 15px;
+    padding: 8px 20px;
+  }
+
+  .link {
+    padding: 8px 0;
+    color: $text-777;
+  }
+}
+
+.has-error .cr-form-control {
+  border: 1px solid red;
+}
+
+.has-error .error-message {
+  margin-top: 5px;
+  font-size: 16px;
+}

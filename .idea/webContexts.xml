@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebContextManager">
+    <option name="state">
+      <map>
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/book.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/cart.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/home.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/order-detail.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/order.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/register.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/return-order.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer/search.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/customer" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/owner/add-promotion.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/owner" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/owner/ecommerce.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/owner" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/owner/product-details.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/owner" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/owner/promotion-details.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/owner" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staff/product-details.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staff" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staff/support-customer-dashboard.jsp" value="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/staff" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/commons/staff/notify-bar.jsp" value="file://$PROJECT_DIR$/src/main/webapp/commons/staff" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/decorators/customer.jsp" value="file://$PROJECT_DIR$/src/main/webapp/decorators" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/decorators/owner.jsp" value="file://$PROJECT_DIR$/src/main/webapp/decorators" />
+        <entry key="file://$PROJECT_DIR$/src/main/webapp/index.jsp" value="file://$PROJECT_DIR$/src/main/webapp" />
+      </map>
+    </option>
+  </component>
+</project>

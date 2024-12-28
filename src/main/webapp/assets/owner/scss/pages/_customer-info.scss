@@ -1,0 +1,108 @@
+.details {
+    margin-top: 32px;
+}
+.details label {
+    margin-top: 20px;
+}
+
+.select-oject-customer {
+    background: #fff;
+    margin-bottom: 12px;
+    font-family: "Nunito, sans-serif";
+    font-size: 12px
+}
+
+.select-oject-customer select {
+    background: #fff; 
+    padding: 5px 10px; 
+    border: 1px solid #eeeeee; 
+    width: 100%; 
+    height: 40px; 
+    color: #777777;
+    outline: none;
+    appearance: none; 
+}
+
+.select-oject-customer select:focus {
+    border-color: #eeeeee; 
+    outline: none; 
+}
+.select-item {
+    font-family: "Nunito, sans-serif";
+}
+.select-item:hover {
+    cursor: pointer;
+}
+.avatar-customer-edit {
+    position: absolute;
+    right: 25px;
+    z-index: 1;
+    top: 25px;
+  }
+.avatar-customer-edit input {
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 0;
+    position: absolute;
+    opacity: 0;
+    z-index: 1;
+  }
+.avatar-customer-edit input + label {
+    transition: all 0.3s ease-in-out;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0;
+    background: #fff;
+    border: 1px solid #eee;
+    cursor: pointer;
+    font-weight: normal;
+  }
+.avatar-customer-edit input + label i {
+    font-size: 20px;
+  }
+.avatar-preview {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    position: relative;
+    border: 1px solid #eee;
+  }
+.avatar-preview > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+.avatar-preview .imagePreview img {
+    margin: auto;
+    vertical-align: middle;
+    max-width: 100%;
+    border-radius: 0;
+  }
+  .avatar-customer-img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.edit-icon {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    font-size: 36px;
+    cursor: pointer;
+}
+.textbox-customer-info input {
+    background-color: white;
+}

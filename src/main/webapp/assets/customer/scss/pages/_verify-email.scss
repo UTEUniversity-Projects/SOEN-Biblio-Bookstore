@@ -1,0 +1,122 @@
+.checkmark-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.checkmark {
+  width: 80px;
+  height: 80px;
+}
+
+.checkmark-circle {
+  fill: #64b595;
+  opacity: 0;
+}
+
+.checkmark-check {
+  fill: none;
+  stroke: white;
+  stroke-width: 5;
+  stroke-dasharray: 48;
+  stroke-dashoffset: 48;
+}
+
+.circle-animation {
+  animation: circle-animation 0.3s ease-in-out 0.3s forwards;
+}
+
+.check-animation {
+  animation: check-animation 0.3s ease-in-out 0.3s forwards;
+}
+
+@keyframes circle-animation {
+  0% {
+    r: 0;
+    opacity: 0;
+  }
+  50% {
+    r: 25;
+    opacity: 1;
+  }
+  100% {
+    r: 25;
+    opacity: 1;
+  }
+}
+
+@keyframes circle-fade-out {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes check-animation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.success-message {
+  font-size: 18px;
+  color: #64b595;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.fade-in {
+  animation: fadeIn 0.5s ease-in forwards;
+}
+
+.fade-out {
+  animation: fadeOut 0.5s ease-in-out forwards;
+}
+
+.topdown {
+  animation: topdown 0.3s ease-in-out forwards;
+}
+
+.bottomup {
+  animation: bottomup 0.2s linear forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes topdown {
+  from {
+    transform: translate(-50%, -250%);
+  }
+  to {
+    transform: translate(-50%, 0);
+  }
+}
+
+@keyframes bottomup {
+  from {
+    transform: translate(-50%, 0);
+  }
+  to {
+    transform: translate(-50%, -250%);
+  }
+}

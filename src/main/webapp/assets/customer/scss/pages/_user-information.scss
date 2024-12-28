@@ -1,0 +1,211 @@
+.section-profile {
+  padding: 100px 0;
+}
+
+.profile-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.logo-container {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 150px;  /* Kích thước của logo */
+  height: auto;
+}
+
+.left-section {
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* Form styles */
+.cr-content-form input,
+.cr-content-form select {
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  background-color: #f9fafb;
+}
+
+.cr-content-form input:focus,
+.cr-content-form select:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 3px rgba(16, 185, 129, 0.3);
+}
+
+.avatar-container {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.avatar {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-info {
+  font-size: 16px;
+  text-align: center;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.gender, .membership {
+  font-size: 14px;
+  color: #666;
+}
+
+.profile-form .form-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  font-size: 14px;
+  color: #333;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.update-button {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.update-button:hover {
+  background-color: #45a049;
+}
+
+.button-container {
+  text-align: right;
+  margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+  .left-section {
+    text-align: center;
+    padding: 10px;
+    border-right: none;
+  }
+
+  .col-md-4, .col-md-8 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .profile-card {
+    padding: 15px;
+  }
+}
+
+/* Logo */
+.logo-container .logo {
+  display: block;
+  margin: 0 auto;
+  width: 200px; /* Điều chỉnh kích thước logo */
+  height: auto;
+}
+
+/* Avatar */
+.avatar-container .avatar {
+  width: 100px; /* Kích thước avatar */
+  height: 100px;
+  border-radius: 50%;
+  border: 2px solid #ddd; /* Đường viền avatar */
+  margin-bottom: 15px;
+}
+
+/* Section bên trái */
+.left-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+/* Chỉnh các thành phần trong form */
+.profile-form .form-group {
+  margin-bottom: 1rem;
+}
+
+/* Group buttons */
+.button-group {
+  display: flex;
+  justify-content: space-between;  /* Đặt hai nút ở hai bên */
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Các nút */
+.update-button, .change-password-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 14px;  /* Giảm kích thước font để thu nhỏ lại */
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.update-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.update-button:hover {
+  background-color: #45a049;
+}
+
+.change-password-button {
+  background-color: #ff6f00; /* Màu cam */
+  color: white;
+}
+
+.change-password-button:hover {
+  background-color: #e65c00;
+}
+
+.gender-options {
+  display: flex; /* Đặt các phần tử bên trong thành hàng ngang */
+  align-items: center; /* Căn giữa theo chiều dọc */
+}
+
+.gender-options label {
+  margin-right: 200px; /* Khoảng cách giữa 2 label */
+  display: flex; /* Đảm bảo các phần tử trong label nằm ngang */
+  align-items: center; /* Căn chỉnh radio button và text theo chiều dọc */
+  gap: 5px; /* Khoảng cách giữa radio button và text */
+}
+
+

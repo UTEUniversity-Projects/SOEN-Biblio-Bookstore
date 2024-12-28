@@ -1,0 +1,51 @@
+2024-11-07 21:32:34,969 INFO  Reflections:219 - Reflections took 160 ms to scan 1 urls, producing 8 keys and 103 values
+2024-11-07 21:32:35,098 INFO  Reflections:219 - Reflections took 47 ms to scan 1 urls, producing 8 keys and 103 values
+2024-11-07 21:32:35,227 DEBUG HikariConfig:970 - Driver class com.mysql.cj.jdbc.Driver found in Thread context class loader jdk.internal.loader.ClassLoaders$AppClassLoader@1d44bcfa
+2024-11-07 21:32:35,240 DEBUG HikariConfig:1102 - HikariPool-1 - configuration:
+2024-11-07 21:32:35,244 DEBUG HikariConfig:1134 - allowPoolSuspension................................false
+2024-11-07 21:32:35,245 DEBUG HikariConfig:1134 - autoCommit................................false
+2024-11-07 21:32:35,246 DEBUG HikariConfig:1134 - catalog................................none
+2024-11-07 21:32:35,250 DEBUG HikariConfig:1134 - connectionInitSql................................none
+2024-11-07 21:32:35,251 DEBUG HikariConfig:1134 - connectionTestQuery................................none
+2024-11-07 21:32:35,251 DEBUG HikariConfig:1134 - connectionTimeout................................30000
+2024-11-07 21:32:35,252 DEBUG HikariConfig:1134 - dataSource................................none
+2024-11-07 21:32:35,253 DEBUG HikariConfig:1134 - dataSourceClassName................................none
+2024-11-07 21:32:35,254 DEBUG HikariConfig:1134 - dataSourceJNDI................................none
+2024-11-07 21:32:35,256 DEBUG HikariConfig:1134 - dataSourceProperties................................{password=<masked>}
+2024-11-07 21:32:35,257 DEBUG HikariConfig:1134 - driverClassName................................"com.mysql.cj.jdbc.Driver"
+2024-11-07 21:32:35,258 DEBUG HikariConfig:1134 - exceptionOverrideClassName................................none
+2024-11-07 21:32:35,262 DEBUG HikariConfig:1134 - healthCheckProperties................................{}
+2024-11-07 21:32:35,263 DEBUG HikariConfig:1134 - healthCheckRegistry................................none
+2024-11-07 21:32:35,263 DEBUG HikariConfig:1134 - idleTimeout................................30000
+2024-11-07 21:32:35,264 DEBUG HikariConfig:1134 - initializationFailTimeout................................1
+2024-11-07 21:32:35,265 DEBUG HikariConfig:1134 - isolateInternalQueries................................false
+2024-11-07 21:32:35,266 DEBUG HikariConfig:1134 - jdbcUrl................................jdbc:mysql://localhost:3306/bsw-biblio
+2024-11-07 21:32:35,267 DEBUG HikariConfig:1134 - keepaliveTime................................0
+2024-11-07 21:32:35,268 DEBUG HikariConfig:1134 - leakDetectionThreshold................................0
+2024-11-07 21:32:35,268 DEBUG HikariConfig:1134 - maxLifetime................................1800000
+2024-11-07 21:32:35,268 DEBUG HikariConfig:1134 - maximumPoolSize................................10
+2024-11-07 21:32:35,269 DEBUG HikariConfig:1134 - metricRegistry................................none
+2024-11-07 21:32:35,269 DEBUG HikariConfig:1134 - metricsTrackerFactory................................none
+2024-11-07 21:32:35,270 DEBUG HikariConfig:1134 - minimumIdle................................2
+2024-11-07 21:32:35,270 DEBUG HikariConfig:1134 - password................................<masked>
+2024-11-07 21:32:35,271 DEBUG HikariConfig:1134 - poolName................................"HikariPool-1"
+2024-11-07 21:32:35,272 DEBUG HikariConfig:1134 - readOnly................................false
+2024-11-07 21:32:35,273 DEBUG HikariConfig:1134 - registerMbeans................................false
+2024-11-07 21:32:35,274 DEBUG HikariConfig:1134 - scheduledExecutor................................none
+2024-11-07 21:32:35,275 DEBUG HikariConfig:1134 - schema................................none
+2024-11-07 21:32:35,275 DEBUG HikariConfig:1134 - threadFactory................................internal
+2024-11-07 21:32:35,276 DEBUG HikariConfig:1134 - transactionIsolation................................default
+2024-11-07 21:32:35,277 DEBUG HikariConfig:1134 - username................................"root"
+2024-11-07 21:32:35,277 DEBUG HikariConfig:1134 - validationTimeout................................5000
+2024-11-07 21:32:35,281 INFO  HikariDataSource:80 - HikariPool-1 - Starting...
+2024-11-07 21:32:36,013 DEBUG HikariPool:565 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4f82663e
+2024-11-07 21:32:36,015 INFO  HikariDataSource:82 - HikariPool-1 - Start completed.
+2024-11-07 21:32:36,083 DEBUG ProxyConnection:259 - HikariPool-1 - Executed rollback on connection com.mysql.cj.jdbc.ConnectionImpl@4f82663e due to dirty commit state on close().
+2024-11-07 21:32:36,124 DEBUG HikariPool:421 - HikariPool-1 - Before cleanup stats (total=1, active=0, idle=1, waiting=0)
+2024-11-07 21:32:36,126 DEBUG HikariPool:421 - HikariPool-1 - After cleanup  stats (total=1, active=0, idle=1, waiting=0)
+2024-11-07 21:32:36,193 DEBUG HikariPool:729 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22c3376b
+2024-11-07 21:32:36,194 DEBUG HikariPool:421 - HikariPool-1 - After adding stats (total=2, active=0, idle=2, waiting=0)
+2024-11-07 21:33:06,140 DEBUG HikariPool:421 - HikariPool-1 - Before cleanup stats (total=2, active=1, idle=1, waiting=0)
+2024-11-07 21:33:06,140 DEBUG HikariPool:421 - HikariPool-1 - After cleanup  stats (total=2, active=1, idle=1, waiting=0)
+2024-11-07 21:33:06,171 DEBUG HikariPool:729 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50ef6f31
+2024-11-07 21:33:06,172 DEBUG HikariPool:421 - HikariPool-1 - After adding stats (total=3, active=1, idle=2, waiting=0)
